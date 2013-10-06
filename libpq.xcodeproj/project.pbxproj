@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0365FD9217FE0C35004DD6A5 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0365FD9117FE0C35004DD6A5 /* libcrypto.dylib */; };
 		0365FD9417FE0C3C004DD6A5 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0365FD9317FE0C3C004DD6A5 /* libssl.dylib */; };
+		0365FDE918020670004DD6A5 /* libpq.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0383E2FD17FEB46800F82409 /* libpq.framework */; };
 		4B4C4CB515040B7500840750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4C4CB415040B7500840750 /* Foundation.framework */; };
 		4B5894F117EF99B90039A02A /* pg_config_ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5894F017EF99B90039A02A /* pg_config_ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B91EF2716F2110F00CC836E /* libpq-fe.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBB04E316A91EE500CEE2AE /* libpq-fe.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -139,9 +140,10 @@
 		0383E2FC17FEB44F00F82409 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstPath = /Users/erik/Program/Skarp/Frameworks;
+			dstSubfolderSpec = 0;
 			files = (
+				0365FDE918020670004DD6A5 /* libpq.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
